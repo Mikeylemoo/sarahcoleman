@@ -1,0 +1,58 @@
+
+/* general site styling start */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+#site-wrapper {
+  display: grid;
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 3rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* general site styling end */
+
+.showcase {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+/* header styling start */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* header styling end */
+
+/* dropdown menu styling start */
+
+
+
+  /* dropdown menu styling end */
+
+  :root {
+    --primary-color: rgba(13, 110, 139, 0.75);
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --menu-speed: 0.75s;
+  }
