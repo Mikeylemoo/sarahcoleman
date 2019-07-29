@@ -1,5 +1,13 @@
 
 /* general site styling start */
+:root {
+  --primary-color: rgba(13, 110, 139, 0.75);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --menu-speed: 0.75s;
+}
+
+
+
 
 * {
   box-sizing: border-box;
@@ -17,6 +25,7 @@ body {
   max-width: 960px;
   margin: auto;
   overflow: hidden;
+  min-height: 530px;
   /* padding: 0 3rem; */
 }
 
@@ -254,12 +263,13 @@ a {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 #site-title {
   font-size: 2rem;
-  float: right;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
 }
 
 /* header styling end */
@@ -270,8 +280,17 @@ header {
 
   /* dropdown menu styling end */
 
-  :root {
-    --primary-color: rgba(13, 110, 139, 0.75);
-    --overlay-color: rgba(24, 39, 51, 0.85);
-    --menu-speed: 0.75s;
+  footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  footer > div {
+    display: flex;
+    align-items: center;
+  }
+
+  #instagram {
+    max-width: 4rem;
   }
