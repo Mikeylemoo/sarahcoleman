@@ -9,6 +9,7 @@
 html {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 
@@ -19,10 +20,12 @@ html {
 }
 
 body {
+  width: 100%;
   display: grid;
+  height: 100%;
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 25% 25% auto;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas: 'h h h h h h h h h h h h'
                        'w w w w w w w w w w w w'
@@ -39,8 +42,12 @@ header {
   justify-self: end;
 }
 
+#large-nav-bar {
+  display: none;
+}
+
 #site-wrapper {
-  max-width: 960px;
+  max-width: 1500px;
   width: 100%;
   margin: auto;
   overflow: hidden;
@@ -134,7 +141,9 @@ ul li {
 
 a {
   text-decoration: none;
+  color: black;
 }
+
 
 
 /* general site styling end */
