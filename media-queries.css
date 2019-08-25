@@ -24,6 +24,15 @@
     #site-title {
         font-size: 3rem;
     }
+
+    #grid-container-workshop p {
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+
+    #grid-container-workshop h1 {
+        font-size: 2.5rem;
+    }
 }
 
 @media (min-width: 800px) {
@@ -35,6 +44,12 @@
 }
 
 @media (min-width: 850px) {
+    #site-title {
+        align-self: flex-start;
+        font-size: 3.7rem;
+        padding-top: 3rem;
+    }
+
     div.menu-wrap {
         display: none;
     }
@@ -101,31 +116,27 @@
 
    
     #image1, #image2, #image3, #image4, #image5 {
-        height: 600px;
-    }
-
-    body {
-        grid-template-rows: auto 1fr 1fr auto;
+        height: 900px;
+        width: 100%;
     }
 
     footer {
         margin-top: 3rem;
     }
 
-    body {
-        width: 100%;
-        display: grid;
-        height: 100%;
-        font-family: 'Roboto', sans-serif;
-        line-height: 1.4;
-        grid-template-rows: auto 1fr 1fr 1fr 1fr;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-areas: 'h h h h h h h h h h h h'
-                             'w w w w w w w w w w w w'
-                             'w w w w w w w w w w w w'
-                             'w w w w w w w w w w w w'
-                             'f f f f f f f f f f f f';
-      }
+
+    #artwork-page-wrap {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #artwork-page-wrap h1 {
+        font-size: 3.5rem;
+    }
+
+    #artwork-page-wrap h2 {
+        font-size: 2rem;
+    }
 
     
 }
@@ -135,4 +146,12 @@
         padding: 1.5rem;
     }
 
+    #site-title {
+        font-size: 4.5rem;
+    }
+
+    #large-nav-bar {
+        font-size: 2.3rem;
+    }
 }
+
