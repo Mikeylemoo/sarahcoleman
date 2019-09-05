@@ -29,7 +29,7 @@ a {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-rows: 25% auto auto 25%;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas: 'h h h h h h h h h h h h'
                        'w w w w w w w w w w w w'
@@ -505,6 +505,22 @@ a {
 
 #about-page-wrapper h2 {
   align-self: center;
+  margin: 1rem;
+  font-size: 1.7rem;
+}
+
+#about-flexbox {
+  display: flex;
+  flex-direction: column;
+}
+
+#about-flexbox img {
+  max-width: 200px;
+  margin: auto;
+}
+
+.about-p {
+  margin: 1rem;
 }
 
 

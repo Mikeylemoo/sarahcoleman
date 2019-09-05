@@ -16,6 +16,18 @@
     }
 }
 
+@media (min-width: 500px) {
+    .about-p {
+        margin: 2rem;
+        font-size: 1.3rem;
+      }
+
+    #about-flexbox img {
+    max-width: 250px;
+    }
+    
+}
+
 
 @media (min-width: 600px) {
     #image1, #image2, #image3, #image4, #image5 {
@@ -41,6 +53,29 @@
     
     #workshop-h1 {
         font-size: 2.5rem;
+      }
+
+    .about-p {
+        margin: 2rem 2.5rem 2rem;
+        font-size: 1.3rem;
+      }
+
+    #about-flexbox img {
+        width: 300px;
+    }
+
+    #about-page-wrapper h2 {
+        align-self: center;
+        margin: 1rem;
+        font-size: 2.5rem;
+      }
+      
+}
+
+@media (min-width: 700px) {
+    .about-p {
+        margin: 2rem 3rem 2rem;
+        font-size: 1.5rem;
       }
 }
 
@@ -88,7 +123,22 @@
     }
 
 
-    #workshop-photo-wrapper {
+    #workshop-photo-wrapper img {
+        max-width: 75%;
+        text-align: center;
+        margin: auto;
+      }
+
+      .workshop-items > img {
+          margin: auto;
+      }
+
+      #workshop-photo-wrapper {
+          align-items: center;
+      }
+    
+      #about-flexbox {
+        display: flex;
         flex-direction: row;
       }
       
