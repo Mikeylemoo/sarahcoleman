@@ -140,6 +140,7 @@
       #about-flexbox {
         display: flex;
         flex-direction: row;
+        margin: 1rem 4rem 1rem;
       }
       
 
