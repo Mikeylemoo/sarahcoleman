@@ -40,10 +40,10 @@ a {
 #grid-container-on-workshops {
   width: 100%;
   display: grid;
-  height: 100%;
+  min-height: 100%;
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
-  grid-template-rows: 25% auto auto 25%;
+  grid-template-rows: 1fr auto auto 1fr;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas: 'h h h h h h h h h h h h'
                        'w w w w w w w w w w w w'
@@ -472,18 +472,39 @@ a {
 
 #workshop-wrapper {
   grid-area: w;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: 'a a a a a a a a a a a a'
+                       'b b b b b b b b b b b b'
+                       'c c c c c c c c c c c c'
+                       'd d d d d d d d d d d d'
+                       'e e e e e e e e e e e e'; 
+  /* align-items: center; */
   width: 100%;
+  height: 100%;
 } 
 
-#workshop-photo-wrapper {
-  display: flex;
-  flex-direction: column;
+
+#workshop-h1 {
+  grid-area: a;
 }
 
+#workshop-item-1 {
+  grid-area: b;
+}
+
+#workshop-item-2 {
+  grid-area: c;
+}
+
+#workshop-item-3 {
+  grid-area: d;
+}
+
+#workshop-item-4 {
+  grid-area: e;
+}
 
 .workshop-p {
   padding: 0.8rem;
@@ -536,6 +557,10 @@ a {
   margin-bottom: 7rem;
   display: flex;
   flex-direction: column;
+}
+
+#contact-wrapper p, #contact-wrapper h2 {
+  margin: 0 1.5rem 0;
 }
 
 #contact-form {
