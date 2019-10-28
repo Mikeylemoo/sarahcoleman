@@ -170,17 +170,28 @@ footer {
   padding-bottom: 2em;
 }
 
-footer > div {
+.footer-div {
   display: flex;
   align-items: center;
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
+/* .footer-div a {
+  width: 100%;
+} */
+
 #instagram {
+  min-width: 0.2rem;
   max-width: 2rem;
+  margin: 0 0.5rem;
 }
 
 ul li {
   list-style: none;
+  
 }
 
 a {
@@ -619,4 +630,25 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* paintings gallery styling */
+
+#painting-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-area: w;
+  grid-gap: 1rem;
+}
+
+.painting-divs {
+  /* margin: 0 0 1rem; */
+}
+
+.painting-images {
+  max-width: 100%;
+}
+
+#human-profile-image {
+  transform: rotate(90deg);
 }
