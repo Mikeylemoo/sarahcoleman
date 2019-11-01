@@ -548,6 +548,7 @@ a {
 
 #about-flexbox img {
   max-width: 200px;
+  height: 350px;
   margin: auto;
 }
 
@@ -557,7 +558,28 @@ a {
 
 /* contact page styling */
 
-#contact-wrapper {
+#grid-container-contact {
+  width: 100%;
+  display: grid;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  grid-template-rows: 25% auto auto 25%;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: 'h h h h h h h h h h h h'
+                       't t t t t t t t t t t t'
+                       'w w w w w w w w w w w w'
+                       'f f f f f f f f f f f f';
+}
+
+#contact-text {
+  grid-area: t;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#form-wrapper {
   max-width: 2000px;
   max-height: 100%;
   width: 100%;
@@ -574,7 +596,7 @@ a {
   margin: 0 1.5rem 0;
 }
 
-#contact-form {
+.contact-form {
   display: flex;
   flex-direction: column;
   max-width: 65%;
@@ -586,8 +608,9 @@ a {
 .form-main {
   height: 25rem;
   margin: 2em auto;
-  width: 90%;
-  padding: 1em;
+  width: 75%;
+  max-width: 500px;
+  padding: 0.5em;
   border: 1px solid #ccc;
   border-radius: 1em;
   display: flex;
