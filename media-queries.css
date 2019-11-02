@@ -77,6 +77,11 @@
         margin: 2rem 3rem 2rem;
         font-size: 1.5rem;
       }
+
+      #image1, #image2, #image3, #image4, #image5 {
+        
+        height: 450px;
+    }
 }
 
 @media (min-width: 800px) {
@@ -105,7 +110,7 @@
 
     #large-nav-bar {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         flex-wrap: wrap;
         padding: 1em;
         font-size: 1.5em;
@@ -221,8 +226,9 @@
    
     #image1, #image2, #image3, #image4, #image5 {
         /* height: 900px; */
-        width: 60%;
+        width: 80%;
         margin: 2rem auto;
+        height: 600px;
     }
 
     footer {
@@ -282,6 +288,11 @@
 
     #large-nav-bar {
         font-size: 2.3rem;
+    }
+
+    #image1, #image2, #image3, #image4, #image5 {
+        
+        height: 700px;
     }
 }
 

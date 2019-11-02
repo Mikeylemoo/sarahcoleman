@@ -73,7 +73,7 @@ body {
   max-width: 2000px;
   max-height: 100%;
   width: 100%;
-  margin: auto;
+  margin: 2rem auto;
   /* overflow: hidden; */
   height: auto;
   grid-area: w;
@@ -528,11 +528,13 @@ a {
 
 /* about page styles */
 
+
 #about-page-wrapper {
   grid-area: w;
   display: flex;
   flex-direction: column;
   align-content: center;
+  margin-top: 2rem;
 }
 
 #about-page-wrapper h2 {
@@ -547,8 +549,8 @@ a {
 }
 
 #about-flexbox img {
-  max-width: 200px;
-  height: 350px;
+  max-width: 300px;
+  max-height: 350px;
   margin: auto;
 }
 
@@ -574,7 +576,7 @@ a {
 
 #contact-text {
   grid-area: t;
-  margin: 0.5rem;
+  margin: 2.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -599,7 +601,7 @@ a {
 .contact-form {
   display: flex;
   flex-direction: column;
-  max-width: 65%;
+  max-width: 80%;
   height: 100%;
   margin: auto;
   justify-content: space-between;
@@ -608,9 +610,9 @@ a {
 .form-main {
   height: 25rem;
   margin: 2em auto;
-  width: 75%;
+  width: 80%;
   max-width: 500px;
-  padding: 0.5em;
+  /* padding: 0.2rem; */
   border: 1px solid #ccc;
   border-radius: 1em;
   display: flex;
@@ -654,6 +656,7 @@ button {
   flex-direction: column;
   align-items: center;
 }
+
 
 /* paintings gallery styling */
 
