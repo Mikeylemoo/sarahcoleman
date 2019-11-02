@@ -112,7 +112,7 @@ body {
 }
 
 #image2 {
-  background-image: url("image/pexels-photo-1572386.jpeg");
+  background-image: url("jewellery/jewelery1.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -120,7 +120,7 @@ body {
 }
 
 #image3 {
-  background-image: url("image/pexels-photo-1690351.jpeg");
+  background-image: url("mixed-media/mosaic-bird.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -128,7 +128,7 @@ body {
 }
 
 #image4 {
-  background-image: url("image/pexels-photo-1939485.jpeg");
+  background-image: url("workshop-images/workshop1.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -136,7 +136,7 @@ body {
 }
 
 #image5 {
-  background-image: url("image/pexels-photo-2086361.jpeg");
+  background-image: url("paintings/woman-in-hat.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -469,7 +469,7 @@ a {
 
 .workshop-image {
   width: 100%;
-  height: auto;
+  max-height: auto;
   margin: 1rem auto 1rem;
 }
 
@@ -488,9 +488,9 @@ a {
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas: 'a a a a a a a a a a a a'
                        'b b b b b b b b b b b b'
+                       'b b b b b b b b b b b b'
                        'c c c c c c c c c c c c'
-                       'd d d d d d d d d d d d'
-                       'e e e e e e e e e e e e'; 
+                       'c c c c c c c c c c c c'; 
   /* align-items: center; */
   width: 100%;
   height: 100%;
@@ -503,18 +503,12 @@ a {
 
 #workshop-item-1 {
   grid-area: b;
+  width: 75%;
+  margin: auto;
 }
 
 #workshop-item-2 {
   grid-area: c;
-}
-
-#workshop-item-3 {
-  grid-area: d;
-}
-
-#workshop-item-4 {
-  grid-area: e;
 }
 
 .workshop-p {
