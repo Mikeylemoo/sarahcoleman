@@ -17,9 +17,9 @@
 }
   
 
-/* .image-containers {
-    width: 100%;
-} */
+ .image-containers {
+    padding: 5.5%;
+} 
 
 .image-containers>img {
     width: 100%;

@@ -505,10 +505,20 @@ a {
   grid-area: b;
   width: 75%;
   margin: auto;
+  background-image: url("workshop-images/workshop1.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+
+.workshop-image {
+  display: none;
 }
 
 #workshop-item-2 {
   grid-area: c;
+  margin: 2rem;
 }
 
 .workshop-p {
