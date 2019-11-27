@@ -70,6 +70,7 @@
 
     #about-flexbox img {
         width: 300px;
+        height: 350px;
     }
 
     #about-page-wrapper h2 {
@@ -320,6 +321,10 @@
                              't t t t t t w w w w w w'
                              'f f f f f f f f f f f f';
       }
+
+    .about-p {
+        padding: 0 2rem 0;
+    }
 }
 
 @media (min-width: 1270px) {
@@ -342,6 +347,12 @@
         
         /* height: 700px; */
     }
+
+    #contact-text {
+        margin-left: 4rem;
+    }
+
+    
 
 
 }

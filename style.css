@@ -553,8 +553,8 @@ a {
 }
 
 #about-flexbox img {
-  max-width: 300px;
-  max-height: 350px;
+  width: 200px;
+  height: 250px;
   margin: auto;
 }
 
