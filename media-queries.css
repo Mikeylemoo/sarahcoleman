@@ -34,7 +34,7 @@
         height: 370px;
     }
     #site-title {
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
 
     #grid-container-workshop p {
@@ -111,10 +111,10 @@
     
 }
 
-@media (min-width: 850px) {
+@media (min-width: 900px) {
     #site-title {
         align-self: flex-start;
-        font-size: 3.7rem;
+        font-size: 3.2rem;
         padding-top: 3rem;
     }
 
@@ -132,7 +132,7 @@
         justify-content: flex-start;
         flex-wrap: wrap;
         padding: 1em;
-        font-size: 1.5em;
+        font-size: 1.2em;
         width: 50%;
         color: black;
     }
@@ -185,7 +185,7 @@
 
     #large-nav-bar {
         align-self: flex-start;
-        font-size: 1.9rem;
+        font-size: 1.7rem;
     }
 
     #image1, #image2, #image3, #image4, #image5 {

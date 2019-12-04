@@ -677,8 +677,9 @@ button {
 
 .painting-images {
   max-width: 100%;
+  object-fit: cover;
 }
 
-#human-profile-image {
+/* #human-profile-image {
   transform: rotate(90deg);
-}
+} */
