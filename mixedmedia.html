@@ -10,6 +10,20 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     </head>
 <body>
+ 
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
     <div id="grid-container">
     <header>
             <ul id="large-nav-bar">
@@ -24,37 +38,25 @@
     <div id="gallery-wrapper">
 
         <div class="image-containers">
-            <img  class="modal-image" src="mixed-media/framed mosaic 006.jpg" alt="a framed mosaic containing a bird">
+            <img  id="myImg" src="mixed-media/framed mosaic 006.jpg" alt="a framed mosaic containing a bird">
         </div>
         <div class="image-containers">
-            <img class="modal-image" src="mixed-media/mirror-mosaic.jpg" alt="a mosaic mirror shown outdoors">
+            <img id="myImg" src="mixed-media/mirror-mosaic.jpg" alt="a mosaic mirror shown outdoors">
         </div>
         <div class="image-containers">
-            <img class="modal-image" src="mixed-media/mosaic-bird.jpg" alt="a mosaic bird">
+            <img class="myImg" src="mixed-media/mosaic-bird.jpg" alt="a mosaic bird">
         </div>
         <div class="image-containers">
-            <img class="modal-image" src="mixed-media/two-birds-wooden-frame.jpg" alt="two mixed media birds over a wooden frame">
+            <img class="myImg" src="mixed-media/two-birds-wooden-frame.jpg" alt="two mixed media birds over a wooden frame">
         </div>
         <div class="image-containers">
-            <img class="modal-image" src="mixed-media/tree jewel, dusk. mixed media.jpg" alt="painting of trees surround by tiled frame">
+            <img class="myImg" src="mixed-media/tree jewel, dusk. mixed media.jpg" alt="painting of trees surround by tiled frame">
         </div>
         <div class="image-containers">
-            <img class="modal-image" src="mixed-media/morning.4 meersbrook park. mixed media.jpg" alt="painting of park with a ceramic bowl directly in front of the painting">
+            <img class="myImg" src="mixed-media/morning.4 meersbrook park. mixed media.jpg" alt="painting of park with a ceramic bowl directly in front of the painting">
         </div>
         
-    </div>
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <!-- close button -->
-        <span class="close">&times;</span>
-
-        <!-- modal content  (the image) -->
-        <img class="modal-content" id="img01">
-        
-        <!-- modal caption (image text) -->
-        <div id="caption"></div>
-
-    </div>
+    
                 
     
 
@@ -86,12 +88,13 @@
         <p>&copy; 2019 Michael Elsam </p>
     </footer>
   </div>
-  
+</div>
+
 </body>
 </html>
 
         
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="modal.js"></script>
 
 </div>
 </body>
